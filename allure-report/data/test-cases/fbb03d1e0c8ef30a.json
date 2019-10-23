@@ -1,0 +1,135 @@
+{
+  "uid" : "fbb03d1e0c8ef30a",
+  "name" : "And I verify five days weather is displayed",
+  "fullName" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down.And I verify five days weather is displayed",
+  "historyId" : "1fe5b0bb912ba5f239eabeec5b746f12",
+  "time" : {
+    "start" : 1571841408049,
+    "stop" : 1571841408104,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1571841408050,
+        "stop" : 1571841408083,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ea0ee82b08569a0",
+        "name" : "Request",
+        "source" : "2ea0ee82b08569a0.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "2f2f7238050bb524",
+        "name" : "Response",
+        "source" : "2f2f7238050bb524.json",
+        "type" : "application/json",
+        "size" : 237
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I verify five days weather is displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d47df90d63dd4697",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841394510,
+        "stop" : 1571841394562,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "97382bae9cc01a50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841380507,
+        "stop" : 1571841380565,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "be9a63a23bd4a2f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841366429,
+        "stop" : 1571841366528,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "e7a4a912fa58eab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841352920,
+        "stop" : 1571841353015,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "60b1d8bb55cbf33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841336395,
+        "stop" : 1571841336583,
+        "duration" : 188
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbb03d1e0c8ef30a.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

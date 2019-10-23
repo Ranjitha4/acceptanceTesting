@@ -1,0 +1,164 @@
+{
+  "uid" : "e4d5989b1146ec8c",
+  "name" : "Then I display min and max temperature of selected 2",
+  "fullName" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down.Then I display min and max temperature of selected 2",
+  "historyId" : "2d194ac68456a98ed671e16eda3d2ecf",
+  "time" : {
+    "start" : 1571841502264,
+    "stop" : 1571841502678,
+    "duration" : 414
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1571841502265,
+        "stop" : 1571841502352,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27f415f415159f61",
+        "name" : "Request",
+        "source" : "27f415f415159f61.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "8d56aeda3eb777e6",
+        "name" : "Response",
+        "source" : "8d56aeda3eb777e6.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.36642448084359924-8/text",
+      "time" : {
+        "start" : 1571841502360,
+        "stop" : 1571841502437,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed280e90b317e9b3",
+        "name" : "Response",
+        "source" : "ed280e90b317e9b3.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1571841502438,
+        "stop" : 1571841502500,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1ea8c8d284b9017",
+        "name" : "Request",
+        "source" : "f1ea8c8d284b9017.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "67e73a885d50b347",
+        "name" : "Response",
+        "source" : "67e73a885d50b347.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/0.36642448084359924-9/text",
+      "time" : {
+        "start" : 1571841502507,
+        "stop" : 1571841502677,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "438cc857bbb890ac",
+        "name" : "Response",
+        "source" : "438cc857bbb890ac.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I display min and max temperature of selected 2"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4d5989b1146ec8c.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

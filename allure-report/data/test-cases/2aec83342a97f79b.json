@@ -1,0 +1,135 @@
+{
+  "uid" : "2aec83342a97f79b",
+  "name" : "And I verify five days weather is displayed",
+  "fullName" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down.And I verify five days weather is displayed",
+  "historyId" : "92742b14a9e06ab3b272a3bfade3ffc3",
+  "time" : {
+    "start" : 1571841498660,
+    "stop" : 1571841498714,
+    "duration" : 54
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1571841498661,
+        "stop" : 1571841498694,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6efcea7b577ddd60",
+        "name" : "Request",
+        "source" : "6efcea7b577ddd60.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "a0b053df4f42a8ca",
+        "name" : "Response",
+        "source" : "a0b053df4f42a8ca.json",
+        "type" : "application/json",
+        "size" : 242
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I verify five days weather is displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "212affb4501a8930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841484130,
+        "stop" : 1571841484223,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "f5468e3fcfb986e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841468615,
+        "stop" : 1571841468684,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "4cbcc0c2612c58b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841454841,
+        "stop" : 1571841454938,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "f1137d2a38beee86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841439692,
+        "stop" : 1571841439789,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "d6190bfd71944520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841423362,
+        "stop" : 1571841423706,
+        "duration" : 344
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2aec83342a97f79b.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

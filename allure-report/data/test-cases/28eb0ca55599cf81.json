@@ -1,0 +1,129 @@
+{
+  "uid" : "28eb0ca55599cf81",
+  "name" : "Given I open the site \"/\"",
+  "fullName" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day.Given I open the site \"/\"",
+  "historyId" : "9d404cfc4f82e1c15d9cd2a9508ddac9",
+  "time" : {
+    "start" : 1571841228786,
+    "stop" : 1571841230694,
+    "duration" : 1908
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1571841228787,
+        "stop" : 1571841230693,
+        "duration" : 1906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe55a10c5bae3658",
+        "name" : "Request",
+        "source" : "fe55a10c5bae3658.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c350c7681406ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841214607,
+        "stop" : 1571841216297,
+        "duration" : 1690
+      }
+    }, {
+      "uid" : "7ba29f7e8c1b1039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841201185,
+        "stop" : 1571841203001,
+        "duration" : 1816
+      }
+    }, {
+      "uid" : "5189cb5eb7cda6e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841187920,
+        "stop" : 1571841189686,
+        "duration" : 1766
+      }
+    }, {
+      "uid" : "3915f7818e581819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841173862,
+        "stop" : 1571841175449,
+        "duration" : 1587
+      }
+    }, {
+      "uid" : "108f3657eb06668c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841158759,
+        "stop" : 1571841160743,
+        "duration" : 1984
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28eb0ca55599cf81.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

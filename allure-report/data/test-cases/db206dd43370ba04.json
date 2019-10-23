@@ -1,0 +1,135 @@
+{
+  "uid" : "db206dd43370ba04",
+  "name" : "And I verify five days weather is displayed",
+  "fullName" : "To test the weather forecast application.: Select day again to hide 3 hourly forecast.And I verify five days weather is displayed",
+  "historyId" : "6a1582da89d38fd3f6fc2c6b85e504a3",
+  "time" : {
+    "start" : 1571841148039,
+    "stop" : 1571841148130,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1571841148041,
+        "stop" : 1571841148096,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99fa6546f005aa05",
+        "name" : "Request",
+        "source" : "99fa6546f005aa05.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "1f0759dbc59490bf",
+        "name" : "Response",
+        "source" : "1f0759dbc59490bf.json",
+        "type" : "application/json",
+        "size" : 242
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Select day again to hide 3 hourly forecast"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Select day again to hide 3 hourly forecast"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I verify five days weather is displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Select day again to hide 3 hourly forecast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "618759191ad1a314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841127598,
+        "stop" : 1571841127702,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "b33de6b267f6cf27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841107492,
+        "stop" : 1571841107584,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "fcc38378d762aaf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841087261,
+        "stop" : 1571841087354,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "46927c2ea673330e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841066989,
+        "stop" : 1571841067078,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "4f7e0d47ef99c3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841046604,
+        "stop" : 1571841046672,
+        "duration" : 68
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db206dd43370ba04.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

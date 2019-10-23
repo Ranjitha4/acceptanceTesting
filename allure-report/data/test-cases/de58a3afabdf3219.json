@@ -1,0 +1,135 @@
+{
+  "uid" : "de58a3afabdf3219",
+  "name" : "Then I verify five days weather is displayed",
+  "fullName" : "To test the weather forecast application.: Enter city name,to get 5 day weather forecast.Then I verify five days weather is displayed",
+  "historyId" : "c5925aa999b807d0ecdd80b095b2863",
+  "time" : {
+    "start" : 1571840951789,
+    "stop" : 1571840951850,
+    "duration" : 61
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1571840951791,
+        "stop" : 1571840951831,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1515ea9105246f1",
+        "name" : "Request",
+        "source" : "b1515ea9105246f1.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "d4fda313b341a3b8",
+        "name" : "Response",
+        "source" : "d4fda313b341a3b8.json",
+        "type" : "application/json",
+        "size" : 237
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Enter city name,to get 5 day weather forecast"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Enter city name,to get 5 day weather forecast"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify five days weather is displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Enter city name,to get 5 day weather forecast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c42b20491bd0a60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571840942258,
+        "stop" : 1571840942335,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "74b0d009c4eb4dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571840931906,
+        "stop" : 1571840931984,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "f65cadea4ca068cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571840922031,
+        "stop" : 1571840922122,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "f756af01ac759bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571840911833,
+        "stop" : 1571840911982,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "834b7e23a062529b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571840902256,
+        "stop" : 1571840902456,
+        "duration" : 200
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de58a3afabdf3219.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

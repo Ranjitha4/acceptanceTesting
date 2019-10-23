@@ -1,0 +1,135 @@
+{
+  "uid" : "3f54ca4056ff96f6",
+  "name" : "And I verify five days weather is displayed",
+  "fullName" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day.And I verify five days weather is displayed",
+  "historyId" : "5ddf4bb77bd91e4556c9693c353c3568",
+  "time" : {
+    "start" : 1571841238559,
+    "stop" : 1571841238633,
+    "duration" : 74
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1571841238560,
+        "stop" : 1571841238608,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3754ba50a8ac64a0",
+        "name" : "Request",
+        "source" : "3754ba50a8ac64a0.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "9480e1f09cb89be5",
+        "name" : "Response",
+        "source" : "9480e1f09cb89be5.json",
+        "type" : "application/json",
+        "size" : 237
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I verify five days weather is displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ad42d0d3547e9268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841224949,
+        "stop" : 1571841225035,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "4373ff71615db524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841210774,
+        "stop" : 1571841210847,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "a64173471f39a0f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841197254,
+        "stop" : 1571841197324,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "dfc39a9e3767d832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841184171,
+        "stop" : 1571841184241,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "648a2d0c927966cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841169932,
+        "stop" : 1571841170047,
+        "duration" : 115
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f54ca4056ff96f6.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

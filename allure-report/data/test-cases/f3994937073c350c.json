@@ -1,0 +1,129 @@
+{
+  "uid" : "f3994937073c350c",
+  "name" : "Given I open the site \"/\"",
+  "fullName" : "To test the weather forecast application.: Display Most dominant (or current) wind speed and direction of specific day with the value rounded down.Given I open the site \"/\"",
+  "historyId" : "afaaf905ead14269f66ea7848687553f",
+  "time" : {
+    "start" : 1571841310480,
+    "stop" : 1571841312711,
+    "duration" : 2231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1571841310481,
+        "stop" : 1571841312710,
+        "duration" : 2229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecab294a4f9ea70d",
+        "name" : "Request",
+        "source" : "ecab294a4f9ea70d.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) wind speed and direction of specific day with the value rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) wind speed and direction of specific day with the value rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Most dominant (or current) wind speed and direction of specific day with the value rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d8b7b854de9ff785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841296969,
+        "stop" : 1571841298699,
+        "duration" : 1730
+      }
+    }, {
+      "uid" : "29066f8472df57b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841284082,
+        "stop" : 1571841285625,
+        "duration" : 1543
+      }
+    }, {
+      "uid" : "cde2f1e5d05751a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841270489,
+        "stop" : 1571841272242,
+        "duration" : 1753
+      }
+    }, {
+      "uid" : "843b2ea515d7529a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841256685,
+        "stop" : 1571841258336,
+        "duration" : 1651
+      }
+    }, {
+      "uid" : "5aa4e1f0c3de7fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841242490,
+        "stop" : 1571841244210,
+        "duration" : 1720
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3994937073c350c.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

@@ -1,0 +1,129 @@
+{
+  "uid" : "6827cec6b2ece2cd",
+  "name" : "Given I open the site \"/\"",
+  "fullName" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down.Given I open the site \"/\"",
+  "historyId" : "44a57bab20e459e95a33258fe3a1aff8",
+  "time" : {
+    "start" : 1571841398396,
+    "stop" : 1571841400485,
+    "duration" : 2089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1571841398398,
+        "stop" : 1571841400484,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f3db3a0f5aeb231",
+        "name" : "Request",
+        "source" : "7f3db3a0f5aeb231.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46a0b369e9f40af9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841384319,
+        "stop" : 1571841386555,
+        "duration" : 2236
+      }
+    }, {
+      "uid" : "5c1594361d7a94d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841370756,
+        "stop" : 1571841372747,
+        "duration" : 1991
+      }
+    }, {
+      "uid" : "deee6d6cbcf58ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841356927,
+        "stop" : 1571841358893,
+        "duration" : 1966
+      }
+    }, {
+      "uid" : "95215fa6910548d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841341562,
+        "stop" : 1571841343856,
+        "duration" : 2294
+      }
+    }, {
+      "uid" : "7dabff3e567a11bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841324759,
+        "stop" : 1571841326830,
+        "duration" : 2071
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6827cec6b2ece2cd.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

@@ -1,0 +1,129 @@
+{
+  "uid" : "7d41240c9b73c02c",
+  "name" : "Given I open the site \"/\"",
+  "fullName" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down.Given I open the site \"/\"",
+  "historyId" : "ad3ca389ee5fef95c9379a8534b90e18",
+  "time" : {
+    "start" : 1571841489193,
+    "stop" : 1571841490971,
+    "duration" : 1778
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1571841489195,
+        "stop" : 1571841490970,
+        "duration" : 1775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63eb02989e547bd",
+        "name" : "Request",
+        "source" : "63eb02989e547bd.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-77.0.3865.120"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4201f58cb8be0c4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841472629,
+        "stop" : 1571841474443,
+        "duration" : 1814
+      }
+    }, {
+      "uid" : "af1f47f70886cd5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841459043,
+        "stop" : 1571841461077,
+        "duration" : 2034
+      }
+    }, {
+      "uid" : "84c955e44cb021a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841443968,
+        "stop" : 1571841446165,
+        "duration" : 2197
+      }
+    }, {
+      "uid" : "8fec2fe45f947af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841428024,
+        "stop" : 1571841429938,
+        "duration" : 1914
+      }
+    }, {
+      "uid" : "44095fdf86f1bb3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571841411779,
+        "stop" : 1571841413905,
+        "duration" : 2126
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d41240c9b73c02c.json",
+  "parameterValues" : [ "chrome-77.0.3865.120" ]
+}

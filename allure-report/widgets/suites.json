@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "dc5ee6c032125fff1097f151e5c05e00",
+    "name" : "To test the weather forecast application.: Select day again to hide 3 hourly forecast",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "9099186501a434973bc4e82e642be0e4",
+    "name" : "To test the weather forecast application.: Display Most dominant (or current) condition of specific day",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "2512d58492ef03db380d05e8be642b3a",
+    "name" : "To test the weather forecast application.: Display Most dominant (or current) wind speed and direction of specific day with the value rounded down",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "4e87e779131ed148c952d71e71878b7d",
+    "name" : "To test the weather forecast application.: Display Aggregate rainfall of specific day with the values rounded down",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "64498f45aaee4253ab7a391f4a1e66e0",
+    "name" : "To test the weather forecast application.: Display Minimum and maximum temperatures of specific day with the values rounded down",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "ccf5804b686132c0ac69a0d3022ee847",
+    "name" : "To test the weather forecast application.: Select day to get 3 hourly forecast",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "af45aac38e1e12801659bfd3ba1f9187",
+    "name" : "To test the weather forecast application.: Enter city name,to get 5 day weather forecast",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "26cdd3121435bad5347e25d47ac462e6",
+    "name" : "To test the weather forecast application.: Error scenarios",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}
