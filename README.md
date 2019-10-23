@@ -26,7 +26,8 @@ To run test scenarios:
 
     $ npm run test
     
-    if this command does not work then use npx wdio wdio.conf.js
+    if this command does not work then use 
+    $ npx wdio wdio.conf.js
 
 ### Both application and test scenario runs with one same command
 
